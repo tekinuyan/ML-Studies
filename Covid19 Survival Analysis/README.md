@@ -28,3 +28,11 @@ The time of report is constructed which the database contained 572679 geopositio
 Figure 2 shows the histogram of the covid-19 patiens by their age scale. The figure indicated that most of patiens got the virus around age of 36 to 38. This migth indicate the active young age class has mostly affacted by the virus.
 
 ![Figure 2](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image005.png)
+Figure 2 Histogram of Covid-19 Patients
+
+
+Figure 3 indicates that the dead of covid-19 patients are mostly belong to the old age male group that are above 65 years old. 
+<p align="center">
+![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image007.png)
+![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image009.png)
+</p>
