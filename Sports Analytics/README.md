@@ -67,7 +67,8 @@ As a second XG model, I have used notorious XG boost algorithm to improve the re
 
 The feature selection of XG Boost is slightly differs from the GBC. It indicates after header the situation (FreeKick ), 1st period and bodypart replaced (FreeKick and  Right Foot). 
 
-On the other hand, the decision tree represented below by XGBoost model indicates that if a shot is marked as hot, it is a goal. If not, if the x axis distance from the goal is smaller than 109 meters, than it is a goal, else missed. 
+On the other hand, the decision tree represented below by XGBoost model indicates the probabilities(not converted to probability from leaf node) that if a shot is marked as hot, probably it is a goal. If not, if the x axis distance from the goal is smaller than 109 meters, than it is a possible goal or else a possible miss.
+To calculate exact probabilities one can use in numpy 1/(1+np.exp(-1*Leaf))
 
 ![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image019.png)
 
