@@ -32,7 +32,7 @@ Figure 2 Histogram of Covid-19 Patients
 
 
 Figure 3 indicates that the dead of covid-19 patients are mostly belong to the old age male group that are above 65 years old. 
-<p align="center">
-![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image007.png)
+
+![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image007.png #center)
 ![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image009.png)
-</p>
+
