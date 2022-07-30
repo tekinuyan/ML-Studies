@@ -77,3 +77,11 @@ In Figure 7. the exponentiated coefficients(exp(coef)) indicates Hazard ratios. 
 ![Figure 8](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image022.png)
 
 ![Figure 9](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image024.jpg)
+
+
+## References
+* Kate Bull and David J Spiegelhalter. Tutorial in biostatistics survival analysis in observational studies. Statistics
+in medicine, 16(9):1041–1074, 1997.
+* Bo Xu, Bernardo Gutierrez, Sumiko Mekaru, Kara Sewalk, Lauren Goodwin, Alyssa Loskill, Emily L Cohn, Yulin
+Hswen, Sarah C Hill, Maria M Cobo, et al. Epidemiological data from the covid-19 outbreak, real-time case
+information. Scientific data, 7(1):1–6, 2020.
