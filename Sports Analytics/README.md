@@ -36,7 +36,7 @@ Out of 40658 total shots, there were 4629 goals. For each shot, we have 7 differ
 
 Before the feature selection, a correlation description would be helpful for us to eliminate some of the futures and focus on the more important ones. Below, the heatmap of the all of the features with linear correlation factors. The darker squares show a negative correlation and the brighter is positive correlation. From that we can see that the opportunity(“hot”) and x axes has positive correlation with scoring while the time feature had quite low factor compare to others and excluded in the further steps. There was not much significant correlation with the other parameters. Therefore, a machine learning model could help us to get more insight of a Goal event.
 
-![Figure 4](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image012.png)
+![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image012.png)
 
 
 ##Gradient Boosting Classifier[1]
@@ -46,35 +46,34 @@ We will first train a Gradient Boosting Classifier, which is a very powerful alg
 
 We use hyperopt to learn the best hyperparameters for tuning our model. It tries different settings all over the ranges that we give to it, and then sticks to the most promising ones. Below are the first five hyperparameter combination. Almost all of them resulted the same. This indicates, there are no overfitting as our predictions are equally good for training and testing samples.
 
-![Figure 4](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image014.png)
+![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image014.png)
 
-The confusion matrix summarizes all of the predictions below. It tells us that, from all the shots that were not goal, our model correctly identified **12160 as no-goals**, and made a mistake in **1218** cases in which it predicted that the shot would not be a goal, but it was. From the other column, we see that it correctly predicted 73 goals, but failed to predict 136 successful shots as goals. From the report we can see the model has excellent numbers when it comes to predict class 0 (no-goal), but not that good for predicting class 1 (goals). With the latter, we have a precision of 65%, and a recall of 10%, resulting in an F1 score of 0.17. These are not really good numbers.
+The confusion matrix summarizes all of the predictions below. It tells us that, from all the shots that were not goal, our model correctly identified **12160 as no-goals**, and made a mistake in **1218** cases in which it predicted that the shot would not be a goal, but it was. From the other column, we see that it correctly predicted 73 goals, but failed to predict 136 successful shots as goals. From the report we can see the model has excellent numbers when it comes to predict class 0 (no-goal), but not that good for predicting class 1 (goals). With the latter, we have a precision of **65%**, and a recall of **10%**, resulting in an F1 score of 0.17. These are **not really good numbers.
 
-![Figure 4](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image016.png)
+![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image016.png)
 
  
-Predicting whether a shot will be goal and being right is extremely more difficult than correctly predicting it will not be a goal. This is particularly true if you have no idea who the player shooting the ball is or who the goalkeeper is and goalkeepers location as well as other defense players, which is the situation in which the algorithm is in. However while putting the hot column which indicates an opportunity index defined by the humans. 4602 goals out of 4629 was considered as a high probability of a goal by just 27 surprise goals with 99.5% accuracy. While humans made mistake by marking 27185 shots as “hot” but there was still no goal in contrast to machine learning model’s 91% precision for forecasting the non-goal shots. One can conclude that machines are predicting the non- goal shots better than humans while human can decide better which shot has high probability of scoring a goal. 
+Predicting whether a shot will be goal and being right is extremely more difficult than correctly predicting it will not be a goal. This is particularly true if you have no idea who the player shooting the ball is or who the goalkeeper is and goalkeepers location as well as other defense players, which is the situation in which the algorithm is in. However while putting the hot column which indicates an opportunity index defined by the humans. **4602 goals** out of 4629 was considered as a high probability of a goal by just 27 surprise goals with **99.5%** accuracy. While humans made mistake by marking 27185 shots as “hot” but there was still no goal in contrast to machine learning model’s 91% precision for forecasting the non-goal shots. ** One can conclude that machines are predicting the non- goal shots better than humans while human can decide better which shot has high probability of scoring a goal**. 
+
 Let's take a look at which of our features are more relevant for our model to make the decisions whether each shot is a goal or not.
 
-
+![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image017.png)
 
 We see that most of the shot-location stand among the most relevant, as expected. The human interaction is also playing a significant role by determining whether the shot was a opportunity for a  goal or not.
 
 ## XGBoost Classifier
-As a second XG model, I have used notorious XG boost algorithm to improve the accuracy and compare the current results with Gradient Boost. We get almost exactly the same results as with Gradient Boosting. When this is the case, one should usually prefer the simpler model, the Gradient Boosting. However, there are 5 goals that were correctly recognized as such by the Gradient Boosting that were not captured by the XGBoost. Even though this is not a huge difference, I will choose the Gradient Boosting because of it.
+As a second XG model, I have used notorious XG boost algorithm to improve the recall and compare the current results with Gradient Boost. We get almost exactly the same results as with Gradient Boosting. When this is the case, one should usually prefer the simpler model, the Gradient Boosting. However, there are 5 goals that were correctly recognized as such by the Gradient Boosting that were not captured by the XGBoost. Even though this is not a huge difference, I will choose the Gradient Boosting because of it.
+
 The feature selection of XG Boost is slightly differs from the GBC. It indicates after header the situation (FreeKick ), 1st period and bodypart replaced (FreeKick and  Right Foot). 
+
 On the other hand, the decision tree represented below by XGBoost model indicates that if a shot is marked as hot, it is a goal. If not, if the x axis distance from the goal is smaller than 109 meters, than it is a goal, else missed. 
- 
+
+![Figure 4](https://github.comtekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image019.png)
+
 As a conclusion, managers should advice the players to take as much shots as possible from the optimum angles that model indicates, which would increase the probability to score and encourage players to take a header if necessary. On the other hand, the model suggests that during the first period the goal probability is low. Coaches, can advice the strikers to save more energy to the second period and try to get closer to the opponent goal and more shots accordingly. 
 
-
-## Conclusion
 
 
 
 ## References
-* Kate Bull and David J Spiegelhalter. Tutorial in biostatistics survival analysis in observational studies. Statistics
-in medicine, 16(9):1041–1074, 1997.
-* Bo Xu, Bernardo Gutierrez, Sumiko Mekaru, Kara Sewalk, Lauren Goodwin, Alyssa Loskill, Emily L Cohn, Yulin
-Hswen, Sarah C Hill, Maria M Cobo, et al. Epidemiological data from the covid-19 outbreak, real-time case
-information. Scientific data, 7(1):1–6, 2020.
+[1] https://www.kaggle.com/gabrielmanfredi/expected-goals-player-analysis
