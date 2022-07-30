@@ -1,4 +1,4 @@
-![Figure 0](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image001.png)
+![Figure 0](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image001.png#center)
 # Covid19 Survival Analysis
 
 This report is covid-19 survival analysis. The goal of the study is to analize what are the important factors for Covid-19 to survive after it has been diagnosed. To aid the analysis and tracking of the COVID-19 epidemic we
@@ -34,5 +34,5 @@ Figure 2 Histogram of Covid-19 Patients
 Figure 3 indicates that the dead of covid-19 patients are mostly belong to the old age male group that are above 65 years old. 
 
 ![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image007.png#center)
-![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image009.png)
+![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image009.png#center)
 
