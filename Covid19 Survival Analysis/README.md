@@ -1,4 +1,4 @@
-
+(https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image001.png)
 # Covid19 Survival Analysis
 
 This report is covid-19 survival analysis. The goal of the study is to analize what are the important factors for Covid-19 to survive after it has been diagnosed. To aid the analysis and tracking of the COVID-19 epidemic we
@@ -8,8 +8,7 @@ collected and curated individual-level data from national, provincial, and munic
 
 ## Data Records and Description
 The given dataset is extracted via fallowing features which are assumed to be most related ones on the covid19 survival analysis. The detailed explanation of the features are below (See Figure 1):
-![Screenshot](image003.png)
-![Figure 1](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image001.png)
+![Figure 1](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image003.png)
 
 age - Age of the case reported in years. When not reported, N/A is used. Age ranges are recorded as start_age-end_age e.g. 50–59.
 
@@ -25,4 +24,4 @@ outcome - Patients outcome, as either “died” or “discharged” from hospit
 
 The time of report is constructed which the database contained 572679 geopositioned records from December 1, 2019 to 22th of February 2021.
 Figure 2 shows the histogram of the covid-19 patiens by their age scale. The figure indicated that most of patiens got the virus around age of 36 to 38. This migth indicate the active young age class has mostly affacted by the virus.
-![Figure 2](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignent%20report_pictures/image005.png)
+![Figure 2](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image005.png)
