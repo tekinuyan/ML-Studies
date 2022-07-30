@@ -39,7 +39,8 @@ Before the feature selection, a correlation description would be helpful for us 
 ![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image012.png)
 
 
-##Gradient Boosting Classifier[1]
+## Gradient Boosting Classifier[1]
+
 Since our aim to predict whether a shot is goal or not. The model can be clearly set as a binary classification problem. The possible methods are logistic regression and decision trees classifiers.
 
 We will first train a Gradient Boosting Classifier, which is a very powerful algorithm. It consists of an ensemble of decision trees. Because these trees tend to overfit to the training data, developing thousands of different trees making use of different predictors and samples each time helps us reduce the variance of our predictions within the famous bias vs variance tradeoff.
