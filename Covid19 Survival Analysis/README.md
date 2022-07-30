@@ -77,4 +77,4 @@ In Figure 7. the exponentiated coefficients(exp(coef)) indicates Hazard ratios. 
 
 ![Figure 8](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image022.png)
 
-![Figure 9](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image024.png)
+![Figure 9](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image024.jpg)
