@@ -1,4 +1,4 @@
-![Figure 0](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image001.png)
+![Figure 0](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image001.png)
 # Expected Goals in Football
 
 ## Data Exploaration
