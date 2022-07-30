@@ -70,3 +70,4 @@ Figure 5
 
 Below table shows the real sentiment and predicted ones according to our best model
 
+![Figure 6](https://github.com/tekinuyan/ML-Studies/blob/main/Sentiment%20Analysis%2C%20%20NLP/A4_Tekin_uyan_601991_Report_pics/image016.png)
