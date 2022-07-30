@@ -69,7 +69,7 @@ The feature selection of XG Boost is slightly differs from the GBC. It indicates
 
 On the other hand, the decision tree represented below by XGBoost model indicates that if a shot is marked as hot, it is a goal. If not, if the x axis distance from the goal is smaller than 109 meters, than it is a goal, else missed. 
 
-![Figure 4](https://github.comtekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image019.png)
+![Figure 4](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image019.png)
 
 As a conclusion, managers should advice the players to take as much shots as possible from the optimum angles that model indicates, which would increase the probability to score and encourage players to take a header if necessary. On the other hand, the model suggests that during the first period the goal probability is low. Coaches, can advice the strikers to save more energy to the second period and try to get closer to the opponent goal and more shots accordingly. 
 
