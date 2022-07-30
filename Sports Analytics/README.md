@@ -6,17 +6,17 @@
 We will focus exclusively on analyzing Shots in football, we begin by exploring some characteristics about this event of the game.
 First, let's see how the outcomes differs by various leagues. Below table shows the percentage of the shots ended up goal or no goal. One can see that the between national leagues Italy has the least and Spain has the most goals scored. This is mainly a reason of the tactical plays which remained as traditional characteristic of the countries’ football style. Italian teams are the famous with their defensive playing whilst Spanish teams play offensive. On the other hand the world cup and European cup leagues have the least scores. As the graph indicates there is not much big of a difference between the percentages. We have conducted all of the datasets collected from the leagues in to one main dataframe. 
 
-![Figure 1](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image002.png)
+![Figure 1](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image002.png)
 
 Further, let's see how the different goals are distributed below. The red dots are on the left pitch indicates the coordinates of the goals. The right side is Karnel Density Plot of Goal Events which the dark green area is the most dense region where goals are happened. 
 
-![Figure 2](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image004.png)
-![Figure 2](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image006.png)
+![Figure 2](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image004.png)
+![Figure 2](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image006.png)
 
 Moreover, below plot helps us to see the density of the shot distribution across the 2 axes of the pitch. On the right side the mean and standard deviation values of the axes are reprented to show the shots and goal event.
 
-![Figure 3](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image008.png)
-![Figure 3](https://github.com//tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image010.png)
+![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image008.png)
+![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Sports%20Analytics/Sports%20Analytics%20Reoport_pics/image010.png)
 
 ## xG Model (Expected Goals Model)
 
