@@ -61,8 +61,11 @@ Figure 6.  KM curve for female and male gender and log-rank test.
 
 ## Conclusion
 Overall, 
+
 •	The y-axis represents the probability a patient is still alive after t days, where 𝑡 days is on the x-axis.
+
 •	About 99% of patients survived more than 400 days.
+
 •	 Age group plays significant role in patient survival time, over 99% of young age patients are still alive if after 400 days. The Covid-19 patient survival chance decreases in quickest rate when patients are old. 
 
 ![Figure 7](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image018.png)
