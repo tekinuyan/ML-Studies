@@ -35,7 +35,7 @@ Figure 2
 Figure 3 indicates that the dead of covid-19 patients are mostly belong to the old age male group that are above 65 years old. 
 
 ![Figure 3](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image007.png#center)
-
+Figure 3
 
 Figure 4. shows the analysis specification for this example. The Kaplan-Meier procedure estimates the instantaneous risk of death at any particular time as the ratio of the number who died at that time to the number in the current risk set, which is defined to be the set of individuals currently at risk of experiencing the outcome of interest.
 
