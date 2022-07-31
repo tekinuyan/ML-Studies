@@ -54,17 +54,17 @@ Figure 5. KM curve over three age groups. young: age < 40; middle: 40 - 65 and o
 Figure 6. indicates that the log-rank test provided a p-value of 0.005 is smaller than significant level 0.01 indicating that the difference in survival between gender groups was statistically significant. Meaning we continue believing that survival rate for different age groups differ as the previous Figure 3. show the male deaths cause by Covid-19 virus are more than females.
 
 
+
 ![Figure 6](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image016.png)
 
 ![Figure 6](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image014.png)
 
 Figure 6.  KM curve for female and male gender and log-rank test.
 
+The y-axis represents the probability a patient is still alive after t days, where 𝑡 days is on the x-axis.
+
 ## Conclusion
 Overall, 
-
-•	The y-axis represents the probability a patient is still alive after t days, where 𝑡 days is on the x-axis.
-
 •	About 99% of patients survived more than 400 days.
 
 •	 Age group plays significant role in patient survival time, over 99% of young age patients are still alive if after 400 days. The Covid-19 patient survival chance decreases dramatically when patients are old. 
