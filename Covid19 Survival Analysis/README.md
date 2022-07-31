@@ -1,7 +1,7 @@
 ![Figure 0](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image001.png#center)
 # Covid19 Survival Analysis
 
-This report is covid-19 survival analysis. The goal of the study is to analize what are the important factors for Covid-19 to survive after it has been diagnosed. 
+This report is covid-19 survival analysis. The goal of the study is to analize the important factors that effects the survival rate of a patient who diagnosed with Covid19. 
 
 
 
