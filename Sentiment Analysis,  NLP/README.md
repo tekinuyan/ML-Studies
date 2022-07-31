@@ -2,6 +2,8 @@
 
 ## Introduction
 
+The data is from: https://www.kaggle.com/datatattle/covid-19-nlp-text-classification.
+
 The dataset is summarised to two columns includin original tweets and the related sentiments classification. The data resulted quite balanced regarding the sentiments distribution overall: ‘Positive’=‘Negative’, ‘Extremely Positive’=’Extrememly Negative’ and ‘Neutral’.(Figure 1)
 
 ![Figure 1](https://github.com/tekinuyan/ML-Studies/blob/main/Sentiment%20Analysis%2C%20%20NLP/A4_Tekin_uyan_601991_Report_pics/image004.png)
