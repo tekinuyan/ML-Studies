@@ -65,6 +65,7 @@ The y-axis represents the probability a patient is still alive after t days, whe
 
 ## Conclusion
 Overall, 
+
 •	About 99% of patients survived more than 400 days.
 
 •	 Age group plays significant role in patient survival time, over 99% of young age patients are still alive if after 400 days. The Covid-19 patient survival chance decreases dramatically when patients are old. 
@@ -74,7 +75,7 @@ Overall,
 
 Figure 7. of Cox model coefficients of all Covariates
 
-In Figure 7. the exponentiated coefficients(exp(coef)) indicates Hazard ratios. The key output is this is interpreted as the scaling of hazard risk for each additional unit of the variable, 1.00 being neutral, meaning a patient is less likely to die. Briefly, Cox regression indicated that being male will increase the baseline hazard by a factor of exp(0.01)=1.01 - about 1%. On the other hand having a chronical disease will increase the dead event significantly as 81%. Contrary, being in young age reduces the hazard by a factor of 0.59, or 41%. Being young is associated with good prognostic. Males in old age groups having a chronical disease would be the most vulnerable against covid19 virus.
+In Figure 7. the exponentiated coefficients(exp(coef)) indicates Hazard ratios. The key output is this is interpreted as the scaling of hazard risk for each additional unit of the variable, 1.00 being neutral, meaning a patient is less likely to die. Briefly, Cox regression indicated that being male will increase the baseline hazard by a factor of exp(0.01)=1.01 - about 1%. On the other hand having a chronical disease will increase the dead event significantly as 81%. Contrary, being in young age reduces the hazard by a factor of 0.59, or 41%. Being young is associated with good prognostic. **Males in old age groups having a chronical disease would be the most vulnerable against covid19 virus.**
 
 ![Figure 8](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image022.png)
 
