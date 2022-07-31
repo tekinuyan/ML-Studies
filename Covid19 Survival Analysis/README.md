@@ -10,6 +10,7 @@ The given dataset is extracted via fallowing features which are assumed to be mo
 
 
 ![Figure 1](https://github.com/tekinuyan/ML-Studies/blob/main/Covid19%20Survival%20Analysis/Assignment%20report_pictures/image003.png)
+Figure 1
 
 age - Age of the case reported in years. When not reported, N/A is used. Age ranges are recorded as start_age-end_age e.g. 50–59.
 
