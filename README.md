@@ -1,5 +1,5 @@
 # ML-Studies
-* EV Charging Station Energy Consumtion Prediction
+* EV Charging Station's EDA and Charging Prediction
 * Fraud Detection,
 * Customer Response Prediction,
 * Football Score Analysis,
